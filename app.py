@@ -21,5 +21,5 @@ ocean_proximity = st.slider("ocean_less_than_1H_ocean", min_value=0, max_value=1
 # After selecting features, the user then submits the median house value
 if st.button("Predict"):
   # take the house value, and format the value the right way
-  prediction = model.predict([[latitude, housing_median_age, total_rooms, median_income, ocean_less_than_1H_ocean]])[0]
+  prediction = model.predict([[latitude, housing_median_age, total_rooms, median_income, ocean_proximity]])[0]
   st.write("The predicted median house value is", prediction, "dollars")
