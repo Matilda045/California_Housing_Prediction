@@ -17,7 +17,11 @@ The dataset used in this project is obtained from Kaggle and contains informatio
 
 ## Results
 
-The trained multi-linear regression model indicates that the model generalizes well to unseen data and demonstrates good predictive power.
+The multi-linear regression performs well, demonstrating the predictive power of the selected features.
+
+## Recommendations
+
+I recommend exploring additional features and transformations to potentially improve model accuracy.
 
 ## Usage
 
