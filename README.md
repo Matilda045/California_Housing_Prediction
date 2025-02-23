@@ -5,6 +5,7 @@ This project aims to develop a machine learning model to predict median house va
 ## Dataset
 
 The dataset used in this project is obtained from Kaggle and contains information about various districts in California, including features like median income, housing median age, total rooms, and more.
+https://www.kaggle.com/datasets/camnugent/california-housing-prices
 
 ## Methodology
 
